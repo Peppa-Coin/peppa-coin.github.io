@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Quantum_4-Ornium-';
+    src: url('Data/Files/Special\ Fonts/quantum_4/Quantum.otf'),
+            url('Data/Files/Special\ Fonts/quantum_4/quantum_webfont.woff') format('woff'),
+            url('Data/Files/Special\ Fonts/quantum_4/quantum_webfont.woff2') format('woff2'),
+            url('Data/Files/Special\ Fonts/quantum_4/quantum-webfont.ttf') format('truetype'),
+            url('Data/Files/Special\ Fonts/quantum_4/quantum-webfont.svg#quantumregular') format('svg');
+}
+body 
+{
+    background: #21C4E3;
+    font-family: Arial;
+}
+header
+{
+    background: navy;
+    width: 100%;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    color: #21C4E3;
+    box-shadow: 1px 0px 10px navy;
+    z-index: 10;
+    display: flex;
+}
+#logo
+{
+    display: inline-block;
+    height: 85px;
+}
+.nav
+{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    border: none;
+    margin: 25px;
+    margin-left: 50%;
+}
+.navElt
+{
+    border: 2px solid blue;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    display: inline-block;
+    color: #00ffff;
+    text-decoration: none;
+    background-color: blue;
+}
+#navElt1-1
+{
+    font-size: 15px;
+    height: 30px;
+}
+#main
+{
+    z-index: 1;
+    display: grid;
+}
+#phantom-container
+{
+    height: 350px;
+    width: 100%;
+    display: block;
+}
+.gen-title
+{
+    color: navy;
+    font-size: 8em;
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    width: 99%;
+    font-family: 'Quantum_4-Ornium-';
+    text-shadow: 0px 0px 10px blue;
+}
+.gen-title:hover
+{
+    color: blue;
+    text-shadow: none;
+}
+p
+{
+    width: 25%;
+}
+footer
+{
+    position: absolute;
+    top: auto;
+    left: 0%;
+    border-top: 0.5px solid black;
+    width: 100%;
+    box-shadow: 1px 0px 10px black;
+    height: 10%;
+    z-index: 10;
+}
