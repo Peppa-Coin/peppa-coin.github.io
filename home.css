@@ -8,7 +8,7 @@
 }
 body 
 {
-    background: #21C4E3;
+    background: #0079BD;
     font-family: Arial;
 }
 header
@@ -69,7 +69,7 @@ header
 }
 .gen-title
 {
-    color: navy;
+    color: #DC89BB;
     font-size: 8em;
     position: absolute;
     top: 10%;
